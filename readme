@@ -1,0 +1,15 @@
+This python script uses a haar-cascade classifier for face detection
+
+You can also use pre-saved photo/video in this script and can also use
+webcam or any other device.
+
+The scipt detect face and draws a rectangle around detected face in live
+video, if it matches any of the faces in the database it also shows name
+of the person.
+Database: To be custom built with image_name as name of person.
+
+This script also uses caching to save time, i.e. people who are in database
+their face_encodings are cached in pkl file.
+cache_file: face_encodings_cache.pkl
+
+Include the Face database in same folder/directory as the main script.
